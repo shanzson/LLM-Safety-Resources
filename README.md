@@ -17,7 +17,7 @@
 | Output file contents | cat ||
 | Delay in giving response | sleep ||
 | Blind command injection (10 sec) | ping -c 10 127.0.0.1 ||
-| & whoami > /var/www/static/whoami.txt ||
+| Blind OS command injection with output redirection | & whoami > /var/www/static/whoami.txt ||
 
 
 
