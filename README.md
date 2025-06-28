@@ -14,7 +14,7 @@
 | Running processes | ps -ef | tasklist |
 | Output file contents | cat ||
 | Delay in giving response | sleep ||
-| Blind command injection | ping -c 10 127.0.0.1 ||
+| Blind command injection (10 sec) | ping -c 10 127.0.0.1 ||
 
 
 
